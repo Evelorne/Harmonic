@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class harmonica {
     public static void main(String[] args) {
        double n;
-       double c = 0;
        double w = 1;
         Scanner a =new Scanner(System.in);
         System.out.println("Enter a number: ");
@@ -12,7 +11,6 @@ public class harmonica {
         for (double i = 1; i <= n; i++) {
             i++;
             w = w+(1/i);
-
         }
         System.out.println(w);
     }
