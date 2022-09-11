@@ -11,6 +11,7 @@ public class harmonica {
         for (double i = 1; i <= n; i++) {
             i++;
             w = w+(1/i);
+
         }
         System.out.println(w);
     }
